@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Profile Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="brand">
+        <img src="https://www.flaticon.com/free-icon/woman_6997662?term=avatar&page=1&position=10&origin=tag&related_id=6997662" alt="Profile avatar placeholder" class="avatar">
+        <div>
+          <h1>Nancy Vaghela</h1>
+          <p class="role">Software Development Engineer Intern</p>
+        </div>
+      </div>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#checklist">Accessibility</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="hero-section">
+        <h2>About Me</h2>
+        <p>Welcome to my profile page. Computer Engineering graduate with a passion for creating accessible and user-friendly web experiences.</p>
+        <div class="hero-grid">
+          <article>
+            <h3>Design Philosophy</h3>
+            <p>Use semantic HTML, simple CSS, and thoughtful ARIA support to create pages that work for everyone.</p>
+          </article>
+          <article>
+            <h3>Current Focus</h3>
+            <p>Currently focusing on developing new skills in frontend development and accessibility.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="feature-section">
+        <header>
+          <h2>Skills</h2>
+          <p>Core strengths in web fundamentals, database management, and accessible presentation.</p>
+        </header>
+        <ul class="skill-list">
+          <li>Programming in C++, C#, Python</li>
+          <li>Framework experience: .NET core, React.</li>
+          <li>Database: MySQL, MongoDB</li>
+          <li>Tools: Visual Studio, Git, Postman</li>
+        </ul>
+        <header>
+          <h2>Education</h2>
+          <p>Bachelor of Engineering in Computer Engineering  CHARUSAT,Anand  CGPA: 8.57/10</p>
+        </header>
+        <header>
+          <h2>Projects</h2>
+          <ol>
+            <li> Chronos (Generative AI Planner): An AI-powered planning tool for generating and managing tasks against real -world weather conditions.</li>
+            <li>HRDC Management System: A web-based application for managing human resource development programs.</li>
+            <li>Student Transfer Portal: A platform for managing student transfers between institutions.</li>
+          </ol>
+        </header>
+      </section>
+
+      <aside class="profile-aside" aria-labelledby="aside-heading">
+        <h2 id="aside-heading">Quick Info</h2>
+        <dl>
+          <dt>Location</dt>
+          <dd>Ahmedabad, Gujarat</dd>
+          <dt>Experience</dt>
+          <dd>2 years in software development</dd>
+          <dt>Tools</dt>
+          <dd>Python · JavaScript · .Net · Git</dd>
+        </dl>
+      </aside>
+
+      <section id="checklist" class="checklist-section">
+        <h2>Accessibility Checklist</h2>
+        <p>Review this checklist to ensure the profile page follows accessibility best practices.</p>
+        <ol>
+          <li>Use landmark elements such as <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+          <li>Provide meaningful alternative text for images.</li>
+          <li>Use headings in a logical order, starting with one <code>&lt;h1&gt;</code>.</li>
+          <li>Ensure link text describes the destination or action.</li>
+          <li>Keep color contrast high for readability.</li>
+          <li>Support keyboard navigation with visible focus states.</li>
+          <li>Use lists for related items and instructions.</li>
+        </ol>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>If you would like to connect, please use the email or visit the GitHub repo linked below.</p>
+        <address>
+          <p>Email: <a href="mailto:nancy.vaghela@example.com">nancy.vaghela@example.com</a></p>
+          <p>GitHub: <a href="https://github.com/example/profile-page" target="_blank" rel="noopener noreferrer">example/profile-page</a></p>
+        </address>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with semantic HTML and external CSS for accessible page structure.</p>
+      <p><small>Last updated: <time datetime="2026-07-07">July 7, 2026</time></small></p>
+    </footer>
+  </div>
+</body>
+</html>

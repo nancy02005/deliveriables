@@ -1,0 +1,152 @@
+/* Global layout and typography */
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background: #f7fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.page-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-header,
+.feature-section,
+.checklist-section,
+.profile-aside,
+.contact-section,
+.site-footer {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.role {
+  margin: 0.25rem 0 0;
+  color: #4b5563;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  background: #e0f2fe;
+  color: #0f172a;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav-list a:hover,
+.nav-list a:focus-visible {
+  background: #bae6fd;
+  outline: 2px solid #0369a1;
+  outline-offset: 2px;
+}
+
+.hero-section h2,
+.feature-section h2,
+.checklist-section h2,
+.contact-section h2,
+.profile-aside h2 {
+  margin-top: 0;
+}
+
+.hero-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.hero-section p,
+.feature-section p,
+.checklist-section p,
+.contact-section p {
+  margin: 0 0 1rem;
+}
+
+.skill-list,
+.checklist-section ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.skill-list li,
+.checklist-section li {
+  margin-bottom: 0.75rem;
+}
+
+.profile-aside dl {
+  display: grid;
+  gap: 0.5rem 1rem;
+  margin: 0;
+}
+
+.profile-aside dt {
+  font-weight: 700;
+}
+
+a {
+  color: #0f4c81;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #52525b;
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
