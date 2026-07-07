@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semantic Profile Page</title>
+  <title>Profile Page</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -60,7 +60,7 @@
         <header>
           <h2>Projects</h2>
           <ol>
-            <li> Chronos (Generative AI Planner): An AI-powered planning tool for generating and managing tasks against real -world weather conditions.</li>
+            <li>Chronos (Generative AI Planner): An AI-powered planning tool for generating and managing tasks against real -world weather conditions.</li>
             <li>HRDC Management System: A web-based application for managing human resource development programs.</li>
             <li>Student Transfer Portal: A platform for managing student transfers between institutions.</li>
           </ol>
@@ -73,24 +73,37 @@
           <dt>Location</dt>
           <dd>Ahmedabad, Gujarat</dd>
           <dt>Experience</dt>
-          <dd>2 years in software development</dd>
+          <dd>REST API Developer(CROWN SOFTWARES), Developed and tested RESTful APIs for attendance, fees, and asset management modules using PHP and MySQL.</dd>
           <dt>Tools</dt>
-          <dd>Python · JavaScript · .Net · Git</dd>
+          <dd>PHP · PHPMyAdmin · POSTMAN · Git · Swagger</dd>
         </dl>
       </aside>
 
       <section id="checklist" class="checklist-section">
         <h2>Accessibility Checklist</h2>
         <p>Review this checklist to ensure the profile page follows accessibility best practices.</p>
-        <ol>
-          <li>Use landmark elements such as <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
-          <li>Provide meaningful alternative text for images.</li>
-          <li>Use headings in a logical order, starting with one <code>&lt;h1&gt;</code>.</li>
-          <li>Ensure link text describes the destination or action.</li>
-          <li>Keep color contrast high for readability.</li>
-          <li>Support keyboard navigation with visible focus states.</li>
-          <li>Use lists for related items and instructions.</li>
-        </ol>
+        
+            <input type="checkbox" id="chk-landmarks" />
+            <label for="chk-landmarks">Use landmark elements such as <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</label><br>
+          
+            <input type="checkbox" id="chk-alt" />
+            <label for="chk-alt">Provide meaningful alternative text for images.</label><br>
+          
+            <input type="checkbox" id="chk-headings" />
+            <label for="chk-headings">Use headings in a logical order, starting with one <code>&lt;h1&gt;</code>.</label><br>
+          
+            <input type="checkbox" id="chk-links" />
+            <label for="chk-links">Ensure link text describes the destination or action.</label><br>
+          
+            <input type="checkbox" id="chk-contrast" />
+            <label for="chk-contrast">Keep color contrast high for readability.</label><br>
+          
+            <input type="checkbox" id="chk-focus" />
+            <label for="chk-focus">Support keyboard navigation with visible focus states.</label><br>
+          
+            <input type="checkbox" id="chk-lists" />
+            <label for="chk-lists">Use lists for related items and instructions.</label><br>
+          
       </section>
 
       <section id="contact" class="contact-section">

@@ -3,8 +3,8 @@
   color-scheme: light;
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  color: #1f2937;
-  background: #f7fafc;
+  color: #3f3a17;
+  background: #fff9db;
 }
 
 * {
@@ -28,8 +28,8 @@ body {
 .profile-aside,
 .contact-section,
 .site-footer {
-  background: #ffffff;
-  border: 1px solid #d1d5db;
+  background: #fff7b1;
+  border: 1px solid #f6d86d;
   border-radius: 16px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
@@ -58,7 +58,7 @@ body {
 
 .role {
   margin: 0.25rem 0 0;
-  color: #4b5563;
+  color: #5c4c1c;
 }
 
 .nav-list {
@@ -75,15 +75,15 @@ body {
   padding: 0.65rem 1rem;
   border-radius: 9999px;
   text-decoration: none;
-  background: #e0f2fe;
-  color: #0f172a;
+  background: #fcd34d;
+  color: #3f2b00;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 .nav-list a:hover,
 .nav-list a:focus-visible {
-  background: #bae6fd;
-  outline: 2px solid #0369a1;
+  background: #fde68a;
+  outline: 2px solid #b7791f;
   outline-offset: 2px;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 a {
-  color: #0f4c81;
+  color: #a16207;
 }
 
 a:hover,
@@ -141,7 +141,7 @@ a:focus-visible {
 .site-footer {
   text-align: center;
   font-size: 0.95rem;
-  color: #52525b;
+  color: #5b4221;
 }
 
 @media (max-width: 640px) {
