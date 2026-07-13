@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HRDC Management System — streamline employee onboarding, training schedules, and certification tracking from one centralized dashboard.">
+  <title>HRDC Management System | Human Resources & Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== TOP UTILITY BAR ========== -->
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <p class="utility-text">
+        <svg class="utility-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+        Pri. B.J. Patel Human Resource Development Center
+      </p>
+      <a href="mailto:hrdc@university.edu" class="utility-link">hrdc@university.edu</a>
+    </div>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="HRDC Management System home">
+        <img src="assets/logo.png" alt="Pri. B.J. Patel Human Resource Development Center" class="logo-image" width="200" height="52">
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#modules">Modules</a></li>
+          <li><a href="#why-choose-us">Why Choose Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#" class="btn btn-ghost">Login</a>
+          <a href="#" class="btn btn-primary btn-sm">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero module" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="section-label">HR Department Portal</span>
+          <h1 id="hero-heading">Empower Your Workforce with Seamless Training &amp; HR Management</h1>
+          <p class="hero-subheadline">
+            Streamline employee onboarding, manage training schedules, and issue certificates efficiently — all from one centralized dashboard.
+          </p>
+          <div class="hero-actions">
+            <a href="#" class="btn btn-primary">Go to Dashboard</a>
+            <a href="#" class="btn btn-secondary">Admin Login</a>
+          </div>
+          <ul class="hero-metrics" aria-label="Platform highlights">
+            <li><strong>100+</strong><span>Events Managed</span></li>
+            <li><strong>5,000+</strong><span>Participants</span></li>
+            <li><strong>98%</strong><span>Automation Rate</span></li>
+          </ul>
+        </div>
+        <figure class="hero-visual">
+          <div class="hero-image-frame">
+            <img
+              src="assets/dashboard.jpg"
+              alt="HRDC dashboard showing event management, attendee analytics, and registration overview"
+              class="hero-image"
+              width="960"
+              height="600"
+              loading="eager"
+            >
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========== TRUST STRIP ========== -->
+    <section class="trust-strip" aria-label="Institutional trust indicators">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Secure &amp; Compliant</span>
+        </div>
+        <div class="trust-item">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          <span>Multi-Department Access</span>
+        </div>
+        <div class="trust-item">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+          <span>Paperless Administration</span>
+        </div>
+        <div class="trust-item">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+          <span>ISO-Ready Workflows</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== KEY FEATURES SECTION ========== -->
+    <section id="features" class="features module module--alt" aria-labelledby="features-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Core Capabilities</span>
+          <h2 id="features-heading">Key Features</h2>
+          <p>Everything you need to manage training, approvals, and workforce development in one place.</p>
+        </header>
+
+        <ul class="features-grid">
+          <li class="card-module">
+            <div class="icon-box icon-box--bronze">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3>Employee Directory</h3>
+            <p>Easily manage your workforce, track progress, and onboard new talent with a few clicks.</p>
+          </li>
+          <li class="card-module">
+            <div class="icon-box icon-box--orange">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            </div>
+            <h3>Training Programs</h3>
+            <p>Create and monitor upcoming, ongoing, and completed training sessions.</p>
+          </li>
+          <li class="card-module">
+            <div class="icon-box icon-box--navy">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+            </div>
+            <h3>Automated Approvals</h3>
+            <p>Review and approve training requests effortlessly to keep your teams upskilling without delay.</p>
+          </li>
+          <li class="card-module">
+            <div class="icon-box icon-box--teal">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            </div>
+            <h3>Certification Tracking</h3>
+            <p>Automatically track and manage issued certificates for skill validations and compliance.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== PORTAL MODULES ========== -->
+    <section id="modules" class="modules module" aria-labelledby="modules-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Event Categories</span>
+          <h2 id="modules-heading">Portal Modules</h2>
+          <p>Dedicated workflows for every type of institutional event your HR department coordinates.</p>
+        </header>
+
+        <ul class="modules-grid">
+          <li class="module-card">
+            <img src="assets/hr-training.jpg" alt="" class="module-card-image" width="400" height="240" loading="lazy">
+            <div class="module-card-body">
+              <h3>Conferences &amp; Seminars</h3>
+              <p>Plan large-scale academic gatherings with registration, scheduling, and reporting.</p>
+            </div>
+          </li>
+          <li class="module-card">
+            <img src="assets/hr-analytics.jpg" alt="" class="module-card-image" width="400" height="240" loading="lazy">
+            <div class="module-card-body">
+              <h3>Workshops &amp; FDPs</h3>
+              <p>Manage faculty development programs with session tracking and certificate issuance.</p>
+            </div>
+          </li>
+          <li class="module-card">
+            <img src="assets/hr-team.jpg" alt="" class="module-card-image" width="400" height="240" loading="lazy">
+            <div class="module-card-body">
+              <h3>Expert Talks &amp; Training</h3>
+              <p>Coordinate expert sessions and staff training with attendance and feedback tools.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE US SECTION ========== -->
+    <section id="why-choose-us" class="why-choose module module--alt" aria-labelledby="why-heading">
+      <div class="container why-grid">
+        <figure class="why-image-wrap">
+          <img
+            src="assets/hr-team.jpg"
+            alt="HR team collaborating on workforce development planning"
+            class="why-image"
+            width="600"
+            height="450"
+            loading="lazy"
+          >
+        </figure>
+
+        <div class="why-content">
+          <header class="section-header section-header--left">
+            <span class="section-label">Institutional Advantage</span>
+            <h2 id="why-heading">Why Choose HRDC Portal</h2>
+            <p>Built for HR administrators who need clarity, speed, and reliable data at every step.</p>
+          </header>
+
+          <ul class="benefits-list">
+            <li class="benefit-item">
+              <span class="benefit-check" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+              </span>
+              <div>
+                <h3>Real-Time Insights</h3>
+                <p>Monitor training progress, completion rates, and workforce readiness as data updates across your organization.</p>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-check" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+              </span>
+              <div>
+                <h3>Quick Approval Mechanisms</h3>
+                <p>Reduce bottlenecks with streamlined request workflows that keep employees learning without unnecessary delays.</p>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-check" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+              </span>
+              <div>
+                <h3>Actionable Analytics</h3>
+                <p>Turn HR data into decisions with dashboards designed for administrators who need answers, not spreadsheets.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATISTICS BAND ========== -->
+    <section class="stats-band" aria-label="Platform statistics">
+      <div class="container stats-grid">
+        <article class="stat-module">
+          <p class="stat-number">98%</p>
+          <p class="stat-label">Approval turnaround within 24 hours</p>
+        </article>
+        <article class="stat-module stat-module--accent">
+          <p class="stat-number">10k+</p>
+          <p class="stat-label">Certificates issued and tracked</p>
+        </article>
+        <article class="stat-module">
+          <p class="stat-number">500+</p>
+          <p class="stat-label">Organizations trust HRDCMS daily</p>
+        </article>
+        <article class="stat-module">
+          <p class="stat-number">20+</p>
+          <p class="stat-label">University departments onboarded</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner module" aria-labelledby="cta-heading">
+      <div class="container cta-inner">
+        <h2 id="cta-heading">Ready to modernize your HRDC operations?</h2>
+        <p>Join institutional HR teams using HRDC Portal for smarter event and workforce management.</p>
+        <div class="cta-actions">
+          <a href="#" class="btn btn-white">Get Started</a>
+          <a href="#" class="btn btn-outline-white">Schedule a Demo</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-about">
+        <a href="#" class="footer-logo">
+          <img src="assets/hrdc-logo.png" alt="HRDC Portal" class="footer-logo-image" width="160" height="42">
+        </a>
+        <p>The Human Resource Development Centre Portal is the university's centralized platform for managing conferences, seminars, workshops, FDPs, and institutional development events.</p>
+      </section>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h2 class="footer-heading">Quick Links</h2>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#modules">Modules</a></li>
+          <li><a href="#why-choose-us">Why Choose Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="footer-support" aria-labelledby="support-heading">
+        <h2 id="support-heading" class="footer-heading">Support</h2>
+        <p>Need help getting started or managing your account?</p>
+        <a href="mailto:support@hrdcms.example?subject=Help%20Query" class="footer-link">Help Queries</a>
+        <p class="footer-contact">
+          <a href="mailto:support@hrdcms.example">support@hrdcms.example</a>
+        </p>
+        <ul class="social-links" aria-label="Social media links">
+          <li>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.127 0 2.063 2.063 0 01-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:support@hrdcms.example" class="social-link" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">&copy; 2026 HRDC Management System. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
